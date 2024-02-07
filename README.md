@@ -1,7 +1,7 @@
 # Realsense-K4A_depth_comparison
 
 # Overview
-All the required codes for data capture to analysis of all the experiments mentioned in the research paper **Comparing Depth Estimation of Microsoft Azure Kinect DK and Intel Realsense D435i Cameras** are present in `codes/` directory.
+All the required codes for data capture to the analysis of all the experiments mentioned in the research paper **Comparing Depth Estimation of Azure Kinect and Realsense D435i Cameras** are present in the `codes/` directory.
 
 # File Structure
 
@@ -30,11 +30,10 @@ All the required codes for data capture to analysis of all the experiments menti
     └── utils
     |    ├── file.py
     |    └── initialize_config.py
-    ├── Readme.md
     └── requirements.txt
 ```
 # Data Capture
-`recorder/` directory contains all the required python codes for data capture for both cameras.
+The `recorder/` directory contains all the required Python codes for data capture for both cameras.
 
 ## Azure Kinect
 **Record Data:**
@@ -52,9 +51,9 @@ python3 recorder/realsense_recorder.py --config config/realsense.json --record_i
 ``` 
 
 # Experiments
-`libs/` and `experiments/` directories contain all the required python codes for data visualization and analysis for each experiment.
+`libs/` and `experiments/` directories contain all the required Python codes for data visualization and analysis for each experiment.
 
-Azure Kinect outputs are `.mkv` video, and `color` and `depth` images, so we need to extract the depth data from each depth images in `depth/` directory. For that we have added an `export_depth` flag in each experiment code which will render a color image. When one/multiple rectangular ROIs are drawn on that color image, depth data within the ROIs will be extracted for all the depth images within `depth/` directory of the corresponding `color/` directory and saved as `.npy` file. 
+Azure Kinect outputs are `.mkv` video, and `color` and `depth` images, so we need to extract the depth data from each depth image in the `depth/` directory. For that, we have added an `export_depth` flag in each experiment code which will render a color image. When one/multiple rectangular ROIs are drawn on that color image, depth data within the ROIs will be extracted for all the depth images within the `depth/` directory of the corresponding `color/` directory and saved as a `.npy` file. 
 
 
 ### Export Azure Kinect depth
@@ -71,7 +70,7 @@ The visualizations are different for different experiments, so you will need to 
 2. Temporal Plot
 3. Distribution Check
 
-For each of these, we have respective flags. You will need to set them `True` as per your need.
+For each of these, we have respective flags. You will need to set them to `True` as per your need.
 
 # Contact
 For pre-recorded data and further information, please contact the authors through the paper.
