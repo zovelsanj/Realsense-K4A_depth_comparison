@@ -73,5 +73,5 @@ The visualizations are different for different experiments, so you will need to 
 For each of these, we have respective flags. You will need to set them to `True` as per your need.
 
 # Contact
-For pre-recorded data and further information, please contact the authors through the paper. Full version pre-print of the paper is available [here]([url](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4597442).
+For pre-recorded data and further information, please contact the authors through the paper. Full version pre-print of the paper is available [here]([url](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4597442)).
 Paper will soon be published on LNNS lecture series of Springer.
