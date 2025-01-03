@@ -72,6 +72,16 @@ The visualizations are different for different experiments, so you will need to 
 
 For each of these, we have respective flags. You will need to set them to `True` as per your need.
 
-# Contact
-For pre-recorded data and further information, please contact the authors through the paper. Full version pre-print of the paper is available [here](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4597442).
-Paper will soon be published on LNNS lecture series of Springer.
+# Contact and Citations
+For pre-recorded data and further information, please contact the authors through the paper.
+The paper is published on LNNS lecture series of the Springer Nature as a proceeding of Ninth International Congress on Information and Communication Technology (ICICT) 2024.
+```
+@inproceedings{rijal2024comparing,
+  title={Comparing Depth Estimation of Azure},
+  author={Rijal, Sanjay and Pokhrel, Suruchi and Om, Madhav and Ojha, Vaghawan},
+  booktitle={Proceedings of Ninth International Congress on Information and Communication Technology: ICICT 2024, London, Volume 10},
+  pages={225},
+  organization={Springer Nature}
+}
+```
+The full version pre-print of the paper is available at [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4597442).
